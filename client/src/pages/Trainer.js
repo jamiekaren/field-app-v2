@@ -55,7 +55,7 @@ class Trainer extends Component {
         }
       }
     };
-    // this._onButtonClick = this._onButtonClick.bind(this);
+   
   
   }
 
