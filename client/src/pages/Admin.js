@@ -10,6 +10,17 @@ class Admin extends Component {
 
     };
 
+    submitNewLesson = event =>{
+        event.preventDefault();
+
+        console.log("Submit button working!");
+
+        console.log(event.target);
+
+    
+        
+    }
+
     render() {
         return (
             <div className="text-center mt-5">
@@ -27,7 +38,7 @@ class Admin extends Component {
                         <label for="uploadLesson">Upload Lesson Image:  </label>
                         <input type="file" id="inputFile"></input>
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" onClick={this.submitNewLesson} className="btn btn-primary">Submit</button>
                 </form>
 
                 
