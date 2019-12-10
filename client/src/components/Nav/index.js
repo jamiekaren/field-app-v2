@@ -15,6 +15,7 @@ function Nav(props) {
       (<Link onClick ={props.logOut}className="navbar-brand ml-auto mr-5" to="/">
         Logout
       </Link>)}
+      <Link to="/admin">Admin</Link>
     </nav>
     <header className="nav2 py-5 sticky-top mw-100%">
      <a href="/"><img alt="logo" src={logo} className="ml-4" ></img> </a> 

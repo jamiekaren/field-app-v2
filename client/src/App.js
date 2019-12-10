@@ -5,6 +5,7 @@ import NotFound from './components/NotFound/NotFound';
 import Home from './components/Home/Home';
 // import handleLogout from './components/Home/Home'
 import Trainer from './pages/Trainer';
+import Admin from './pages/Admin';
 import Login from './components/Login/Login';
 import './components/style/style.css'
 
@@ -48,6 +49,7 @@ class App extends Component { // Write as class
           <Route path="/login" render={() => <Home loggedin={this.state.loggedin}  storeToken={this.storeToken} />} />
           <Route path="/logout" render={() => <Home loggedin={this.state.loggedin}  storeToken={this.storeToken} />} />
           <Route path="/trainer" component={Trainer} />
+          <Route path="/admin" component={Admin} />
           <Route component={NotFound} />
         </Switch>
       </Router >

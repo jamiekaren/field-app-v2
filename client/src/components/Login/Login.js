@@ -6,6 +6,7 @@ const Login = () => {
    <div>
      <img
        src={School}
+       alt=""
        style={{
          position: "absolute",
          height: "100%",
