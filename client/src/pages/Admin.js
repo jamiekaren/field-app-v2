@@ -24,12 +24,14 @@ class Admin extends Component {
                     </div>
 
                     <div className="form-group">
-                        <label for="uploadLesson">Upload Lesson Image: </label>
+                        <label for="uploadLesson">Upload Lesson Image:  </label>
                         <input type="file" id="inputFile"></input>
                     </div>
+                    <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
-                
 
+                
+                
 
                 
             </div>
